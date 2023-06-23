@@ -25,7 +25,7 @@ To run the simulation, you will need to have Python 3.6 or higher installed, as 
 ```
 Once you have installed the necessary dependencies, you can launch the open exploration by running the script:
 ```
-    $ python MORDM_environmentalist_group_analyst.ipynb
+    $ jupyter nbconvert --to notebook --execute MORDM_environmentalist_group_analyst.ipynb --output MORDM_environmentalist_group_analyst_output.ipynb
 ```
 To set up the open exploration, users must change [line 2]() for the problem formulation initialisation in `MORDM_environmentalist_group_analyst.ipynb`. `problem_formulation.py` provides more detail on the problem formulation options. The experiments and optimization will run for a default of 3 planning steps, with each tick representing planning steps. You can adjust the simulation parameters, such as the run scenarios, reference scenarios, and the number of function evaluations, by modifying the variables in the `MORDM_environmentalist_group_analyst.ipynb` script.
 
