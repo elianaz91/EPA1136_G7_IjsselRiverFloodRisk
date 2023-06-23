@@ -51,8 +51,22 @@ Before running the model, please look at the "README_model.md" in the model fold
 │
 ├── README.md                                             <- This file.
 │
-├── dike_model_function.py                                <- The primary model for the DikeNetwork, further define as dike_model
+├── dike_model_function.py                                <- The primary model for the DikeNetwork, further defined as dike_model
 │
+├── dike_model_optimization.py                            <- Provide the directed search script.
+│
+├── dike_model_simulation.py                              <- Perform experiments based on the `problem_formulation.py`.
+│
+├── funs_dikes.py                                         <- Contains functions related to dike management and analysis.
+|
+├── funs_economy.py                                       <- Contains functions related to economic calculations for the measured investment.
+│
+├── funs_generate_network.py                              <- Contains functions to generate a network of dikes and related elements of the flood system.
+|
+├── funs_hydrostat.py                                     <- Contains functions to calculate hydrostatic calculations.
+|
+├── problem_formulation.py                                <- Setup specific problem formulation for open exploration using DikeNetwork class.
+|
 ├── requirements.txt                                      <- The requirements file for reproducing the analysis environment.
 │
             
