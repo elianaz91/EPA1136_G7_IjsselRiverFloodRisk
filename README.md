@@ -1,6 +1,6 @@
 # README: Ijssel Flood Risk Model
 # The Analyst of Environmentalist Group 
-## EPA 11136 - Group 7
+## EPA 1361 - Group 7
 
 |           Name            | Student Number |
 |:-------------------------:|:---------------|
