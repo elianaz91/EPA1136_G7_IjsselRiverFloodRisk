@@ -15,7 +15,7 @@
 
 ## Introduction
 
-The repository contains a simulation of exploratory modelling and analysis of the Ijssel River exposed to flood risk. The model called Dike Model (dike_model) that implemented using the NetworkX framework. 
+The repository contains a simulation of exploratory modelling and analysis of the Ijssel River exposed to flood risk. The model called Dike Model (dike_model) that implemented using the EMA Workbench and NetworkX framework. 
 
 ## Getting Started
 
@@ -25,9 +25,9 @@ To run the simulation, you will need to have Python 3.6 or higher installed, as 
 ```
 Once you have installed the necessary dependencies, you can launch the open exploration by running the script:
 ```
-    $ jupyter nbconvert --to notebook --execute MORDM_environmentalist_group_analyst.ipynb --output MORDM_environmentalist_group_analyst_output.ipynb
+    $ jupyter nbconvert --to notebook --execute Analysis_Environmentalist_group.ipynb --output Analysis_Environmentalist_group.ipynb
 ```
-To set up the open exploration, users must change [line 2]() for the problem formulation initialisation in `MORDM_environmentalist_group_analyst.ipynb`. `problem_formulation.py` provides more detail on the problem formulation options. The experiments and optimization will run for a default of 3 planning steps, with each tick representing planning steps. You can adjust the simulation parameters, such as the run scenarios, reference scenarios, and the number of function evaluations, by modifying the variables in the `MORDM_environmentalist_group_analyst.ipynb` script.
+To set up the open exploration, users must change [line 2]() for the problem formulation initialisation in `Analysis_Environmentalist_group.ipynb`. `problem_formulation.py` provides more detail on the problem formulation options. The experiments and optimization will run for a default of 3 planning steps, with each tick representing planning steps. You can adjust the simulation parameters, such as the run scenarios, reference scenarios, and the number of function evaluations, by modifying the variables in the `Analysis_Environmentalist_group.ipynb` script.
 
 ### Output
 After the notebook run has been completed, the output is printed within the notebook. Additionally, complete CSV and tar.gz files can be found in the archive folder, while any figures can be found in the figure folder.
@@ -47,7 +47,7 @@ Before running the model, please look at the "README_model.md" in the model fold
 │            
 ├── report                                                <- Our technical and political reflection report     
 │
-├── MORDM_environmentalist_group_analyst.ipynb            <- The open explorations script.
+├── Analysis_Environmentalist_group.ipynb                 <- The open explorations script.
 │
 ├── README.md                                             <- This file.
 │
